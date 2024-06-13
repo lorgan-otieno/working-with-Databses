@@ -1,4 +1,4 @@
-# working-with-Databses
+# working-with-Databases
 
 # 1. I had a brief challenge accessing mysql due to system failure in creating a port connection,however this was easily corrected by re-launching mysql and everything run smoothly.
 
