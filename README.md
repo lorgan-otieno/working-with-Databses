@@ -6,4 +6,6 @@
 
 # 3. One interesting thing is the fact that a database had to be created first, an indication that when dealing with databases, there is some sort of order that must be adhered to for it to actually function.
 
-# 4. Filtering data in the database is quite simple especially for single command logical operators and slowly increases in "complexity" where more that one logical operator commands have to be used together.   
+# 4. Filtering data in the database is quite simple especially for single command logical operators and slowly increases in "complexity" where more that one logical operator commands have to be used together. 
+
+# 5. In grouping data in sql, it's amazing and astonishing to see how vast amounts of data can be manipulated to create meaningful outputs.
