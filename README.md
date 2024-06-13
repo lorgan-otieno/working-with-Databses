@@ -9,3 +9,5 @@
 # 4. Filtering data in the database is quite simple especially for single command logical operators and slowly increases in "complexity" where more that one logical operator commands have to be used together. 
 
 # 5. In grouping data in sql, it's amazing and astonishing to see how vast amounts of data can be manipulated to create meaningful outputs.
+
+# 6. sql conditional expressions are easy to use for evaluating conditions.
