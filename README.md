@@ -17,21 +17,20 @@
 # 8. Aggregate functions are the easiest functions to use, with most from observation, capitalises more on integer type of data.
 
 # 9.-- SELECT * FROM netflix_csv_db.netflix_titles;
-#
-/* wanted to find out a director who has directed more tv/movie title and which titles and year was this were these*/
- SELECT show_id,director, release_year, COUNT(*) AS title_count, GROUP_CONCAT(title ORDER BY title ASC SEPARATOR ', ') AS directed_titles
- FROM netflix_titles
- WHERE release_year >2000
- GROUP BY show_id, director,release_year
- ORDER BY title_count DESC
- LIMIT 1;
+# /* wanted to find out a director who has directed more tv/movie title and which titles and year was this were these*/
+# SELECT show_id,director, release_year, COUNT(*) AS title_count, GROUP_CONCAT(title ORDER BY title ASC SEPARATOR ', ') AS directed_titles
+# FROM netflix_titles
+# WHERE release_year >2000
+# GROUP BY show_id, director,release_year
+# ORDER BY title_count DESC
+# LIMIT 1;
 
 
-/*the highest number of cast produced by a given country*/
--- SELECT IFNULL(country, 'Unknown') AS country_name, COUNT(*) AS cast_count
--- FROM netflix_titles
--- GROUP BY country
--- ORDER BY cast_count DESC
--- LIMIT 1;
+# /*the highest number of cast produced by a given country*/
+# -- SELECT IFNULL(country, 'Unknown') AS country_name, COUNT(*) AS cast_count
+# -- FROM netflix_titles
+# -- GROUP BY country
+# -- ORDER BY cast_count DESC
+# -- LIMIT 1;
 
 # from trying to gain insight into the netflix dataset there was need to find out which director actually directed more movies, and this was to be movies direted after the year 2000.One director whose name popped up was Kirsten Johnson with the movie titled Dick Johnson is Dead. 
