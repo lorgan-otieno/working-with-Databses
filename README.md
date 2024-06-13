@@ -11,3 +11,5 @@
 # 5. In grouping data in sql, it's amazing and astonishing to see how vast amounts of data can be manipulated to create meaningful outputs.
 
 # 6. sql conditional expressions are easy to use for evaluating conditions.
+
+# 7.Another interesting thing when joining multiple tables is the fact that aliases more commonly referred to as nick-names in lay mans terms can be used to simplify a query, by shortening it while still maintaining it's readbility and functionality.
