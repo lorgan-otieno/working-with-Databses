@@ -13,3 +13,5 @@
 # 6. sql conditional expressions are easy to use for evaluating conditions.
 
 # 7.Another interesting thing when joining multiple tables is the fact that aliases more commonly referred to as nick-names in lay mans terms can be used to simplify a query, by shortening it while still maintaining it's readbility and functionality.
+
+# 8. Aggregate functions are the easiest functions to use, with most from observation, capitalises more on integer type of data.
