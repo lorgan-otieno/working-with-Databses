@@ -17,6 +17,7 @@
 # 8. Aggregate functions are the easiest functions to use, with most from observation, capitalises more on integer type of data.
 
 # 9.-- SELECT * FROM netflix_csv_db.netflix_titles;
+#
 /* wanted to find out a director who has directed more tv/movie title and which titles and year was this were these*/
  SELECT show_id,director, release_year, COUNT(*) AS title_count, GROUP_CONCAT(title ORDER BY title ASC SEPARATOR ', ') AS directed_titles
  FROM netflix_titles
