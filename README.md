@@ -1,6 +1,6 @@
 # working-with-Databses
 
-# I had a brief challenge accessing mysql due to system failure in creating a port connection,however this was easily corrected by re-launching mysql and everything run smoothly.
+# 1. I had a brief challenge accessing mysql due to system failure in creating a port connection,however this was easily corrected by re-launching mysql and everything run smoothly.
 
 # In importing the netflix_titles.csv data into the database, it was pretty easy and straightforward.  
 
